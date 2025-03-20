@@ -73,7 +73,7 @@ class Addtransaction:
             mydb = mysql.connector.connect ( 
                 host = "localhost",
                 user = "root",
-                password = "JamalMusiala42!",
+                password = "",
                 database = "budget_buddy"
             )
             cursor = mydb.cursor()
