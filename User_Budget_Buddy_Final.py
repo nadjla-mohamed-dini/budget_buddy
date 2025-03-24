@@ -29,7 +29,7 @@ def is_valid_email(email):
     return re.match(email_regex, email) is not None
 
 def password_valid(password):
-    if len(password)>10:
+    if len(password) < 10:
         return False
     if not re.search(r'[A-Z]', password):
         return False
