@@ -7,7 +7,7 @@ import re
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="JamalMusiala42!",
+    password="",
     database="budget_buddy"
 )
 
